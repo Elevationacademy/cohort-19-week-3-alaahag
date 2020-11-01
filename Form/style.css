@@ -1,0 +1,27 @@
+form
+{
+    width: 420px;
+    background-color: cadetblue;
+    border: 1px solid;
+}
+
+td{
+    padding: 10px;
+}
+
+.align_right
+{
+    text-align: right;
+}
+
+*
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#validator
+{
+    color: red;
+}

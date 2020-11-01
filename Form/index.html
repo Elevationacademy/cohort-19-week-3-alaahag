@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form action="" method="get">
+        <div>
+            <table>
+                <tr colspan="2" id="tr_part1">
+                    <td>
+                        <label for="the_name">Name</label>
+                        <br>
+                        <input required id="the_name" type="text">
+                    </td>
+                </tr>
+                <tr id="tr_part2">
+                    <td>
+                        <label for="salary">Desired Salary</label>
+                        <input required id="salary" type="number">
+                    </td>
+                    <td>
+                        <label class="align_right" for="birthday">Birthday</label>
+                        <input required id="birthday" type="date">
+                    </td>
+                </tr>
+                <tr colspan="2" id="tr_part3">
+                    <td>
+                        <label for="phone">Phone</label>
+                        <br>
+                        <input required id="phone" type="phone">
+                    </td>
+                </tr>
+                <tr id="tr_part4">
+                    <td>
+                        <label id="validator"></label>
+                    </td>
+                    <td class="align_right">
+                        <input id="submit" type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
