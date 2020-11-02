@@ -1,31 +1,28 @@
 const moveLeft = function(){
-    const block = document.getElementById("block");
     let left = parseInt(block.style.left) || 0;
     left -= 15;
     block.style.left = left + "px";
 };
 
 const moveUp = function(){
-    const block = document.getElementById("block");
     let up = parseInt(block.style.top) || 0;
     up -= 15;
     block.style.top = up + "px";
 };
 
 const moveDown = function(){
-    const block = document.getElementById("block");
     let down = parseInt(block.style.top) || 0;
     down += 15;
     block.style.top = down + "px";
 };
 
 const moveRight = function(){
-    const block = document.getElementById("block");
     let right = parseInt(block.style.left) || 0;
     right += 15;
     block.style.left = right + "px";
 };
 
+const block = document.getElementById("block");
 document.getElementById("right").onclick = moveRight;
 document.getElementById("down").onclick = moveDown;
 document.getElementById("left").onclick = moveLeft;
